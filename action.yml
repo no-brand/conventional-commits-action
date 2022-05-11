@@ -1,0 +1,10 @@
+name: 'conventional-commits-action'
+description: 'github action to check commit messages with conventionalcommits.org'
+inputs:
+  conventional-commits-version:
+    description: 'version of conventional commits specification'
+    required: true
+    default: 'v1.0.0'
+runs:
+  using: 'node16'
+  main: 'index.js'

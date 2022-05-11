@@ -1,0 +1,27 @@
+{
+  "name": "conventional-commits-action",
+  "version": "1.0.0",
+  "description": "github action to check commit messages with conventionalcommits.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no-brand/conventional-commits-action.git"
+  },
+  "keywords": [
+    "conventional-commits",
+    "github-actions"
+  ],
+  "author": "no-brand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/no-brand/conventional-commits-action/issues"
+  },
+  "homepage": "https://github.com/no-brand/conventional-commits-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.0",
+    "@actions/github": "^5.0.1"
+  }
+}
